@@ -1,64 +1,97 @@
-Construa um contador de caracteres diferenciado, assim como o utilizado pelo Twitter. Nesse mini projeto você irá utilizar apenas HTML, CSS e JavaScript para transformar um simples contador de caracteres em uma feature completa e interativa.
+<h1 align="center"> Contandor de Caractere </h1>
 
-## 🔨 Requisitos
+[comment]: <> (Adicione o seu usuário  e o nome do repositório)
 
-- Utilize apenas HTML, CSS e JavaScript.
-- Crie um contador circular, de modo que a borda do círculo seja preenchida conforme o número de caracteres digitados:
-  - O número máximo de caracteres é 280.
-  - A borda do círculo deve ser preenchida de forma proporcional aos caracteres digitados. Por exemplo, se forem digitados 140 caracteres, 50% da borda do círculo deverá estar preenchida.
-- Conforme o _input_ é preenchido, a borda do círculo deverá ser preenchida com a cor **azul**:
-  - A partir de 260 caracteres digitados, a borda do círculo deverá se tornar **amarela** para indicar que o limite está próximo.
-  - Se forem digitados 280 caracteres ou mais, a borda do círculo deverá estar totalmente preenchida e se tornar **vermelha**.
+<p align="center">
+  <image
+  src="https://img.shields.io/github/languages/count/ojonatasquirino/contador-caractere"
+  />
+  <image
+  src="https://img.shields.io/github/languages/top/ojonatasquirino/contador-caractere"
+  />
+  <image
+  src="https://img.shields.io/github/last-commit/ojonatasquirino/contador-caractere"
+  />
 
-## 🔨 Desafio extra para quem quer ir além
+</p>
 
-- Exiba o número de caracteres que faltam para atingir o valor máximo:
-  - O número deverá ser renderizado no centro do contador.
-  - O número só poderá ser visível a partir de 260 caracteres digitados, ou seja, a partir da borda amarela.
-  - Ao exceder o limite de caracteres, o valor apresentado deverá ser negativo, indicando quantos caracteres ultrapassaram o limite.
+# sumário 
 
-## 💻 Setup do projeto
+- [objetivos](#id01)
+- [tecnologias utilizadas](#id02)
+- [ambiente de codificação](#id03)
+- [responsividade](#id04)
+- [clonagem e instalação](#id05)
+- [autoria](#id06)
 
-O objetivo desse projeto é a construção do contador de caracteres. Por esse motivo, na _branch_ principal do repositório, você irá encontrar o projeto com o design inicial pronto. Seu trabalho será apenas implementar o contador.
 
-### "Mas eu quero me desafiar e construir todo o design _do zero_"
 
-Nesse caso, separamos uma _branch_ com o nome `blank_project` para você implementar a página do seu jeito!
-Mas atenção: para que você tenha acesso a essa branch, na hora do fork no github você deverá desmarcar a opção "copiar apenas a _branch_ `main`".
+# objetivos <a name="id01"></a>
 
-## Deploy
+<div  align='center'> 
+  
+Construir um contador de caracteres diferenciado, assim como o utilizado pelo X e Threads. Nesse mini projeto utilizo HTML, CSS e JavaScript para transformar um simples contador de caracteres em uma feature interativa. Esse projeto é um desafio da **<a href='https://codante.io'>codante.io</a>**.
 
-- Faça o deploy da sua solução e submeta no Codante.
+</div>
 
-## 🔍 Dicas
 
-- Estude sobre a criação de formas geométricas utilizando SVG com HTML e CSS.
-- Entenda o funcionamento das propriedades `stroke-dasharray` e `stroke-dashoffset`.
+# tecnologias utilizadas <a name="id02"></a>
 
-## 🎨 Design Sugerido
+<div  align='center'> 
 
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
+![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&logoColor=red)
+![CSS](https://img.shields.io/badge/css-0D1117?style=for-the-badge&logo=css3&logoColor=blue)
+![JS](https://img.shields.io/badge/javascript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow)
 
-### Gif
 
-![Twitter counter](https://github.com/codante-io/mp-contador-twitter/assets/78622334/4806fa3f-df2f-488d-bffd-6cbfd674240a)
+</div>
 
-### Figma
+# ambiente de codificação <a name="id03"></a>
 
-🔗 [Link do design](https://www.figma.com/community/file/1284525371882005951)
+<div  align='center'> 
 
-## 👉🏽 Sobre esse mini-projeto
+![node](https://img.shields.io/badge/Nodejs-0D1117?style=for-the-badge&logo=node.js&logoColor=green)
+![git](https://img.shields.io/badge/GIT-0D1117?style=for-the-badge&logo=git&logoColor=red)
+![github](https://img.shields.io/badge/Github-0D1117?style=for-the-badge&logo=github&logoColor=fff)
+</div>
 
-### Tecnologias sugeridas
 
-- HTML, CSS e JavaScript.
+# responsividade  <a name="id04"></a>
 
-## ❓ FAQ
+## mobile 
 
-### Posso utilizar React ou outras bibliotecas?
+![mobile](img/mobile.png)
 
-Você pode utilizar as ferramentas que desejar para implementar esse projeto. Porém, o objetivo principal aqui é exercitar os fundamentos de HTML, CSS e JavaScript e a resolução oficial será implementa dessa maneira.
+## tablet
 
-### Posso utilizar frameworks de estilo?
+![tablet](img/tablet.png)
 
-Sim! Apesar do objetivo principal desse projeto ser exercitar suas habilidades com CSS puro, fique à vontade para utilizar as ferramentas que desejar.
+## desktop 
+
+![laptop](img/laptop.png)
+
+
+# clonagem e instalação <a name="id05"></a>
+
+Clone este repositório usando o comando no seu terminal:
+
+```bash
+git clone https://github.com/usuario/contador-caractere.git
+```
+
+# autoria <a name="id06"></a>
+
+[comment]: <> (Adicione seu nome e função)
+
+<h3 align='center'> @ojonatasquirino • desenvolvedor front-end
+ </h3>
+
+#
+
+<div  align='center'>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/jonatasquirino/)
+<a href = "mailto:quirinoj02@gmail.com">
+![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=red)</a>
+[![TabNews](https://img.shields.io/badge/tabnews-0D1117?style=for-the-badge&logo=Databricks&logoColor=fff)](https://www.tabnews.com.br/ojonatasquirino) [![github](https://img.shields.io/badge/Github-0D1117?style=for-the-badge&logo=github&logoColor=fff)](https://www.github.com/ojonatasquirino)
+</div>

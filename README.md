@@ -76,7 +76,7 @@ Construir um contador de caracteres diferenciado, assim como o utilizado pelo X 
 Clone este repositório usando o comando no seu terminal:
 
 ```bash
-git clone https://github.com/usuario/contador-caractere.git
+git clone https://github.com/ojonatasquirino/contador-caractere.git
 ```
 
 # autoria <a name="id06"></a>
